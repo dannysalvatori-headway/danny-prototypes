@@ -36,7 +36,10 @@
   .variant-desc.active { display: flex; }
   .variant-desc .desc-badge { min-width: 22px; height: 22px; background: var(--accent); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
   .variant-desc .desc-text { font-size: 13px; color: var(--text-secondary); line-height: 1.6; max-width: 600px; }
-  .variant-desc .desc-text strong { color: var(--text-primary); }
+  .variant-desc .desc-text strong { color: var(--text-primary); display: block; margin-bottom: 6px; }
+  .variant-desc .desc-text ul { margin: 6px 0; padding-left: 18px; }
+  .variant-desc .desc-text li { margin-bottom: 4px; }
+  .variant-desc .desc-text li:last-child { margin-bottom: 0; }
   .variant-view { display: none; }
   .variant-view.active { display: flex; gap: 32px; align-items: flex-start; }
   .device-column { display: flex; flex-direction: column; align-items: center; }
@@ -171,7 +174,14 @@
   </div>
   <div class="variant-desc" id="desc-test1">
     <div class="desc-badge">B</div>
-    <div class="desc-text"><strong>Revised Test 1.</strong> Four changes targeting each priority gap: (1) Proof strip with human-scale social proof (&ldquo;1M+ patients matched&rdquo;) + insurance + availability signals. (2) Sub-CTA micro-copy reduces perceived commitment. (3) Cost banner upgraded with narrower range (&ldquo;$0&ndash;45/session&rdquo;). (4) Social proof bar reinforces legitimacy below cost banner. Proven cost banner stays in its original position. No &ldquo;How Headway works&rdquo; &mdash; sub-CTA handles &ldquo;what happens next&rdquo; in one line; provider cards stay close to hero.</div>
+    <div class="desc-text"><strong>Revised Test 1.</strong>Four changes targeting each priority gap:
+      <ul>
+        <li>Proof strip with human-scale social proof (&ldquo;1M+ patients matched&rdquo;) + insurance + availability signals.</li>
+        <li>Sub-CTA micro-copy reduces perceived commitment.</li>
+        <li>Cost banner upgraded with narrower range (&ldquo;$0&ndash;45/session&rdquo;).</li>
+        <li>Social proof bar reinforces legitimacy below cost banner.</li>
+      </ul>
+      Proven cost banner stays in its original position. No &ldquo;How Headway works&rdquo; &mdash; sub-CTA handles &ldquo;what happens next&rdquo; in one line; provider cards stay close to hero.</div>
   </div>
 
   <!-- ===== CONTROL ===== -->
