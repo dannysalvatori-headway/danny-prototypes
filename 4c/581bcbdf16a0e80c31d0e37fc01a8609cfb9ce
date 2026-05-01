@@ -1,0 +1,23 @@
+sem-lp-secondary-cta-options/index.html
+  3bc538a81d1e518f 30,38-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "4c581bcbdf16a0e80c31d0e37fc01a8609cfb9ce",
+  "prompts": {
+    "3bc538a81d1e518f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e73de805-dfd3-47f2-b2eb-ca9995f1208c",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Danny Salvatori",
+      "messages": [],
+      "total_additions": 3,
+      "total_deletions": 3,
+      "accepted_lines": 3,
+      "overriden_lines": 0
+    }
+  }
+}
